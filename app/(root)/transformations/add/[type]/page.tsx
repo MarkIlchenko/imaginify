@@ -18,7 +18,7 @@ const AddTransformationTypePage = async({ params: { type } }: SearchParamProps) 
     <>
       <Header 
         title={transformation.title}
-        subTitle={transformation.subTitle}
+        subtitle={transformation.subTitle}
       />
 
       <section className='mt-10'>
